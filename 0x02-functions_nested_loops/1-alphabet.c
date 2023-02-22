@@ -1,19 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Prints the alphabet.
+ * print_alphabet - Prints the alphabet in lowercase.
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; i < 26; i++)
+	for (i = 97; i <= 122; i++)
 	{
-		putchar(alp[i]);
+		_putchar(i);
 	}
-	putchar('\n');
-	return (0);
-}
+	_putchar('\n');
