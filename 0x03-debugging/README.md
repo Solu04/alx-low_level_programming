@@ -1,5 +1,5 @@
 ## Debugging
-Project done during Full Stack Software Engineering studies at Holberton School. It aims to learn how to debug in C language.
+Project done during Full Stack Software Engineering studies at ALX. It aims to learn how to debug in C language.
 
 ### Files
 All of the following files are programs written in C:
