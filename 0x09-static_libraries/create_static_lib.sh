@@ -1,3 +1,4 @@
 #!/bin/bash
-gcc -std=c11 -Wall -Wextra -Werror -pedantic-errors -c *.c
-ar rcs liball.a *.o
+gcc -Wall -Werror -Wextra -c *.c
+ar -rc liball.a *.o
+ranlib liball.a
